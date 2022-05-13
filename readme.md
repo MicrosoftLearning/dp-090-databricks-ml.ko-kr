@@ -1,15 +1,23 @@
-# DP-090: Microsoft Azure Databricks를 사용하여 기계 학습 솔루션 구현
+---
+ms.openlocfilehash: c08b36c9eee9f97e87b5deaeca304c96bf9dca8c
+ms.sourcegitcommit: e397eba14f6dd257b83e0584f42e459cfe84bfbd
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "138100284"
+---
+# <a name="dp-090-implementing-a-machine-learning-solution-with-microsoft-azure-databricks"></a>DP-090: Implementing a Machine Learning Solution with Microsoft Azure Databricks
 
-- **MCT인가요?** - [MCT용 GitHub 사용자 가이드](https://microsoftlearning.github.io/MCT-User-Guide/)를 살펴보세요.
-- **랩 명령을 수동으로 빌드해야 합니까?** - [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 리포지토리에서 명령을 사용할 수 있습니다.
+- **MCT이신가요?** - [MCT를 위한 GitHub 사용자 가이드](https://microsoftlearning.github.io/MCT-User-Guide/)를 살펴보세요.
+- **랩 지침을 수동으로 빌드해야 하나요?** - 지침은 [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 리포지토리에서 확인할 수 있습니다.
 
-## Microsoft의 역할
+## <a name="what-are-we-doing"></a>Microsoft의 역할
 
-- 이 과정을 지원하려면 과정 콘텐츠를 자주 업데이트하여 해당 과정에 사용된 Azure 서비스를 최신 상태로 유지해야 합니다.  Microsoft는 Azure 플랫폼의 변경 내용을 반영하여 랩 콘텐츠를 최신 상태로 유지하기 위해 과정 작성자들과 MCT가 GitHub에 자유롭게 콘텐츠를 게시할 수 있도록 GitHub에 랩 지침과 랩 파일을 게시합니다.
+- 이 과정을 지원하려면 과정 콘텐츠를 자주 업데이트하여, 과정에서 사용하는 Azure 서비스를 이용해 콘텐츠를 최신 상태로 유지해야 합니다.  과정 작성자와 MCT 사이의 개방된 기여를 통해 Azure 플랫폼의 변경 내용을 적용하여 콘텐츠를 최신 상태로 유지할 수 있도록, 랩 지침과 랩 파일을 GitHub에 게시합니다.
 
-- 여러분도 이와 같은 새로운 공동 작업 방식 랩 개선 과정에 참여하실 수 있습니다. 실제 강의를 진행하는 과정에서 Azure의 변경 내용을 처음으로 확인하시는 분은 랩 원본을 바로 개선해 주시기 바랍니다.  그러면 다른 MCT가 랩을 더욱 효율적으로 진행할 수 있습니다.
+- 이를 통해 이전에 경험하지 못한 방식으로 랩에 대한 협업을 경험하기 바랍니다. Azure가 변경하고 실시간 제공 중에 이를 먼저 발견하면 랩 소스에서 바로 개선 작업을 진행합니다.  동료 MCT를 도와주세요.
 
-## 릴리스된 MOC 파일과 병행하여 이러한 파일을 사용하는 방법
+## <a name="how-should-i-use-these-files-relative-to-the-released-moc-files"></a>이러한 파일을 릴리스된 MOC 파일과 관련하여 어떻게 사용해야 하나요?
 
 - 과정 내용 강의 시에는 강사 가이드와 PowerPoint가 계속 기본 자료로 사용됩니다.
 
@@ -17,12 +25,12 @@
 
 - 트레이너는 강의를 할 때마다 GitHub에서 최신 Azure 서비스를 지원하기 위해 변경된 내용을 확인하는 것이 좋습니다.
 
-## 수강생용 자료는 어떤 방식으로 변경되나요?
+## <a name="what-about-changes-to-the-student-materials"></a>학생 자료의 변경 사항은 어떻게 되나요?
 
-- 수강생 핸드북의 경우 분기별로 검토가 진행되며 필요에 따라 일반 MOC 릴리스 채널을 통해 업데이트됩니다.
+- 학생 핸드북을 분기별로 검토하고 필요하다면 일반 MOC 릴리스 채널을 통해 업데이트합니다.
 
-## 콘텐츠 제공 방법
+## <a name="how-do-i-contribute"></a>기여하려면 어떻게 해야 하나요?
 
-- 모든 MCT는 GitHub 리포지토리의 코드 또는 콘텐츠에 대한 끌어오기 요청을 제출할 수 있습니다. Microsoft와 과정 작성자는 콘텐츠 및 랩 코드 변경을 선별하고 필요에 따라 포함합니다.
+- MCT라면 누구나 GitHub 리포지토리에서 코드 또는 콘텐츠에 대한 끌어오기 요청을 제출할 수 있으며, Microsoft와 과정 작성자는 필요하다면 콘텐츠 및 랩 코드 변경 내용을 심사하고 포함합니다.
 
-- MCT는 버그, 변경 사항, 개선 사항 및 아이디어를 제출할 수 있습니다.  Microsoft보다 먼저 새로운 Azure 기능을 찾았다면  새로운 데모를 제출해 주세요!
+- 버그, 변경 내용, 개선 사항 및 아이디어를 제출할 수 있습니다.  우리보다 먼저 새 Azure 기능을 찾으셨나요?  새 데모를 제출하세요!
